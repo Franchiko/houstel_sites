@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Script de Google FOnts-->
+    <link href="https://fonts.googleapis.com/css
+    family=Open+Sans:400,600,700|Playfair+Display:700" rel="stylesheet">
+    <!--Hoja de Estilo propia compilada por Sass-->
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>HOUSTEL SITES</title>
 </head>
 <body>
-    
+     <!--Seccion Cabecera-->
+<header  class="header">
+    <div class="logo">
+        <img src="assets/img/logo.png" alt="Logo Houstel" class="logo_image">
+    </div>
+</header>
+
+
+
+    <!--Seccion Principal-->
+<main class="main">
+    <div class="main_container">
+        <h1 class="main_title">Disfruta de los paisajes de 
+            <span class="main_title-enphasis main_title-enphasis--size-xxl">Chile</span>
+        </h1>
+        <div class="main_button">
+            <button type="button" class="button button_positive">Más destinos</button>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+    <!--Seccion Formulario-->
+
+<form action="#" class="form">
+    <div class="form_container">
+        <label for="" class="form_label">Lugar u Hotel</label>
+        <input type="text" placeholder="Escribe tu destino" class="form_input-text">
+    </div>
+    <div class="form_container">
+        <label for="" class="form_label">Fecha de Llegada</label>
+        <input type="date" class="form_input-date">
+    </div>
+    <div class="form_container">
+        <label for="" class="form_label">Fecha de Salida</label>
+        <input type="date" class="form_input-date">
+    </div>
+    <div class="form_container">
+        <label for="" class="form_label">Alojamiento</label>
+            <select name="Tipo_Alojamiento" id="Tipo_Alojamiento" class="form_select">
+                <option value="1">Hotel</option>
+                <option value="2">Hostal</option>
+                <option value="3">Depto</option>
+            </select>
+    </div>
+    <div class="form_container">
+        <label for="" class="form_label">Habitacion Tipo</label>
+            <select name="Habitacion_Tipo" id="Habitacion_Tipo" class="form_select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">+ de 4 </option>
+            </select>
+    </div>
+    <button type="submit" class="button button_default">Buscar</button>
+</form> 
 </body>
 </html>
